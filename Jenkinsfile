@@ -1,11 +1,10 @@
-ipipeline {
+pipeline {
     agent any
 
     stages {
         stage('Checkout') {
             steps {
                 echo "Checkout the source code from the Git repository"
-                echo "hello"
                 //git 'https://github.com/yourusername/yourrepository.git'
             }
         }
